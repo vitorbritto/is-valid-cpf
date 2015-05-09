@@ -19,7 +19,7 @@
         // VALIDATE METHOD
         validate.inputCpf = function(cpf) {
 
-            var cpfPattern = /^((\d{3})\.){3}\-\d{2}$/;
+            var cpfPattern = /^\d{3}(\.\d{3}){2}\-\d{2}$/;
             return cpfPattern.test(cpf);
 
         };
