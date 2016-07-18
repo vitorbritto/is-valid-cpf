@@ -6,7 +6,7 @@ Validation for CPF Number input.
 ## Usage
 
 ```javascript
-var cpfInput = getElementById(#contact-cpf);
+var cpfInput = getElementById('contact-cpf');
 isValid.cpf(cpfInput);
 ```
 
